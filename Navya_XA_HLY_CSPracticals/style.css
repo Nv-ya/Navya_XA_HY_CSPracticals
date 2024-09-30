@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #181C14;
+    height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+.nav_items a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+.nav_items{
+    margin-left: 20px;
+}
+
+#Home{
+    background-color: #CDC2A5;
+    height: auto;
+    text-align: center;
+}
+
+#About{
+    background-color: #CEDF9F;
+    height: auto;
+    text-align: center;
+}
+
+#Gallery{
+    height: auto;
+    background-color: #F5EFFF;
+    text-align: center;
+}
+.Gallery{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image{
+    justify-content: space-between;
+    align-items: center;
+    border: #181C14;
+    border-radius: 0%;
+}
+.description{
+    color: #424242;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Safari_Timings{
+    background-color: #E1D7B7;
+    text-align: center;
+    height: auto;
+}
+
+#FAQ{
+    background-color: #F6EACB;
+    height: auto;
+    text-align: center;
+}
+
+#Contact{
+    height: auto;
+    
+}
